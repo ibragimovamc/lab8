@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    display: flex;
+    padding: 0.7% 3% 0.7% 3%;
+    align-items: center;
+}
+
+.header img{
+    margin-right: 3%;
+}
+
+.header .menu span{
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.signup_button{
+    display: inline;
+    width: 144px;
+    height: 48px;
+    line-height: 3vw;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 100px;
+    background: #00C805;
+    color: black;
+    /*margin-bottom: 5%;*/
+    text-decoration: none;
+}
+
+.login_button{
+    display: inline;
+    width: 144px;
+    height: 48px;
+    line-height: 3vw;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 100px;
+    background: none;
+    color: black;
+    /*margin-bottom: 5%;*/
+    text-decoration: none;
+}
+
+.header .menu img{
+    margin-right: 5%;
+}
+
+.menu{
+    flex-grow: 1;
+}
+
+.menu_buttons{
+    display: flex;
+}
+
+.investing_for_everyone{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C3F53C;
+    align-items: center;
+    padding: 1% 5% 1% 5%;
+}
+
+.investing_for_everyone h1{
+    font-size: 46px;
+}
+
+.investing_for_everyone p{
+    font-size: 24px;
+}
+
+.investing_for_everyone span{
+    font-size: 18px;
+}
+
+.investing_signup_button{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    line-height: 3vw;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+.investing_warning{
+    display: flex;
+    margin-top: 5%;
+}
+
+.investing_warning span{
+    margin: 0.5% 0 0 1.5%;
+}
+
+.investing_for_image{
+    width: 696px;
+    height: 603px;
+}
+
+.fee_schedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0 2% 0;
+    border: 1.5px solid;
+}
+
+.we_are_all_investors{
+    display: flex;
+    padding-left: 0.5%;
+}
+
+.we_are_main_img{
+    width: 800px;
+    height: auto;
+    margin: -0.15% 0 0 0;
+}
+
+.we_are_text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 1%;
+}
+
+.we_are_text h1{
+    font-size: 45px;
+}
+
+.we_are_text span{
+    font-size: 18px;
+}
+
+.we_are_campaign{
+    display: flex;
+    margin-top: 3%;
+}
+
+.we_are_campaign span{
+    margin-right: 1%;
+}
+
+.fractional_shares{
+    display: flex;
+    border: 1.5px solid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4% 0 4%;
+}
+
+.shares_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.shares_text_blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 70%;
+    font-size: 18px;
+    position: relative;
+    width: 850px;
+}
+
+.shares_text_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.geometric{
+    margin-right: -5%;
+}
+
+.fractional_shares h1{
+    font-size: 31px;
+}
+
+.fractional_shares span{
+    font-size: 17px;
+    color: #6F787E;
+}
+
+.learn_as_you_grow{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding:6% 15% 6% 15%;
+}
+
+.learn_choice{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    color: #545D61;
+    font-size: 23px;
+    text-align: right;
+    margin-right: -5%;
+}
+
+.learn_choice img{
+    transform: translateX(50px);
+}
+
+.learn_choice_element{
+    margin-bottom: 30%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.learn_choice_element:hover{
+    transition: all 1s cubic-bezier(.1, -1.5, .1, 2.5);
+    transform: scale(1.23);
+}
+
+.learn_choice_switcher {
+    margin-bottom: 30%;
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+}
+
+.learn_text{
+    color: white;
+    margin: 0 0 6% -5%;
+    font-size: 18px;
+    display: none;
+}
+
+.active__container {
+    display: block;
+}
+
+.learn_text h1{
+    font-size: 45px;
+}
+
+.our_products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F0EBE6;
+    padding: 5%;
+    font-size: 18px;
+}
+
+.products_text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.products_menu{
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+    margin-bottom: 12%;
+    position: relative;
+    width: 700px;
+}
+
+.products_menu .tab{
+    color: #6F787E;
+    cursor: pointer;
+}
+
+.products_menu .tab:hover{
+    transition: all 0.3s cubic-bezier(.1, -1.5, .1, 2.5);
+    transform: scale(1.23);
+}
+
+.products_menu .pink__tab {
+    color: #FF90AF;
+}
+
+.products_menu .active__tab {
+    color: black;
+}
+
+.products_text h5{
+    font-size: 31px;
+}
+
+.products_text .tab__text {
+    display: none;
+}
+
+.products_text .active__tab__text{
+    display: block;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stick{
+    margin: 0% 1% 0 1%;
+    border-left: 2px solid black;
+    height: 36px;
+}
+
+.product_bottom_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    margin-top: -5%;
+}
+
+.wrapper img{
+    margin-top: 3%;
+    position: relative;
+    right: -55%;
+}
+
+.products_learnmore_button{
+    margin-top: 30%;
+    display: inline-block;
+    width: 32%;
+    height: auto;
+    line-height: 2.1vw;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+.our_products .product_bottom_text .investing_warning span{
+    position: relative;
+    width: 330px;
+    color: #6F787E;
+}
+
+.bottom_span{
+    margin-top: 5%;
+    font-size: 12px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: white 1px solid;
+}
+
+.ref_block span{
+    margin-bottom: 15px;
+}
+
+.ref_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_form img{
+    transform: translateX(-140px);
+}
+
+.footer_form p{
+    text-align: left;
+}
+
+.email_form{
+    display: flex;
+    background-color: #1E2124;
+    border-radius: 90px;
+    border: none;
+    height: 64px;
+    width: 400px;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.email_form input{
+    background: none;
+    border: none;
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.email_button{
+    display: inline;
+    width: 155px;
+    height: 28px;
+    line-height: 2vw;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 100px;
+    background: #00C805;
+    color: black;
+    text-decoration: none;
+}
+
+.email_bottom{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 5% 0 5% 0;
+}
+
+.email_bottom span{
+    margin-bottom: 15px;
+}
+
+.footer_bottom{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_bottom .spanchik{
+    margin-bottom: 30px;
+}
+
+.green_text{
+    color: #00C805;
+    margin: 0 20px 0 20px;
+}
+
+.footer_bottom .investing_warning img{
+    filter: invert(50%);
+}
+
+.footer_bottom .investing_warning{
+    margin-top: -5px;
+    color: #79858B;
+}
+
+
+
+
+
+
+
